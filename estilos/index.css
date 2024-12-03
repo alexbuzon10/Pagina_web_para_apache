@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: block;
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    height: 1000px;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article{
+    padding-bottom: 10px;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 70%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.fotoinicio{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 1px 10px black;
+}
+
+.productos{
+    width: auto;
+    display: block;
+}
+
+.producto{
+    display: inline-block;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 10px;
+}
+
+.producto h3{
+    margin: 0;
+}
+
+#comprar{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#comprar:hover{
+    text-decoration: none;
+    background-color: rgb(248, 114, 65);
+}
