@@ -49,28 +49,43 @@ article{
     text-align: justify;
     margin: 0 auto;
     max-width: 70%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+    /*border-bottom: 1px solid rgba(0, 0, 0, 0.308);*/
+}
+
+hr{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 1px;
+    margin-left: 13vw;
+    margin-right: 13vw;
 }
 
 .fotoinicio{
-    width: 500px;
+    width: 40%;
     margin: 0;
     padding: 0;
     box-shadow: 1px 1px 10px black;
 }
 
-.productos{
+.tabla{
     width: auto;
-    display: block;
+}
+
+.productos{
+    border-spacing: 15px;
+    margin: 0 auto;
+}
+
+.productos td{
+    background-color: rgba(0, 0, 0, 0.089);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
 }
 
 .producto{
     text-align: center;
-    margin-top: 5px;
-    display: inline-block;
-    min-width: 100px;
+    margin-top: 15px;
+    min-width: 30vw;
     min-height: 100px;
-    background-color: rgba(0, 0, 0, 0.171);
     padding: 10px;
 }
 
