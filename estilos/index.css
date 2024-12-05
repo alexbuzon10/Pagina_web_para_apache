@@ -33,7 +33,6 @@ header a:hover{
 }
 
 section{
-    height: 1000px;
     padding: 10px;
 }
 
@@ -66,6 +65,8 @@ article{
 }
 
 .producto{
+    text-align: center;
+    margin-top: 5px;
     display: inline-block;
     min-width: 100px;
     min-height: 100px;
@@ -75,6 +76,10 @@ article{
 
 .producto h3{
     margin: 0;
+}
+
+.producto img{
+    margin-top: 5px;
 }
 
 #comprar{
