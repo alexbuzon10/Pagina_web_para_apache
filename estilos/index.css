@@ -33,6 +33,7 @@ header a:hover{
 }
 
 section{
+    min-height: 75vh;
     padding: 10px;
 }
 

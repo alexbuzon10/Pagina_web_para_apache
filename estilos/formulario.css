@@ -1,0 +1,23 @@
+#text{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    margin: 10px 0
+}
+
+#submit{
+    margin: 0 auto;
+    width: 300px;
+    background-color: orangered;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submit:hover{
+    background-color: rgb(248, 114, 65);
+    cursor: pointer;
+}
