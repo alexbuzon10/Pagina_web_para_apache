@@ -8,8 +8,7 @@
 }
 
 #submit{
-    margin: 0 auto;
-    width: 300px;
+    min-width: 10%;
     background-color: orangered;
     color: white;
     border: 0;
