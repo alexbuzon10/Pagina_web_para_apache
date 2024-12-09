@@ -80,6 +80,7 @@ hr{
 }
 
 .productos td{
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.089);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
 }
@@ -121,6 +122,8 @@ hr{
     #imgprodc{
         height: 150px;
     }
-    
-    
+
+    .producto{
+        min-height: none;
+    } 
 }
